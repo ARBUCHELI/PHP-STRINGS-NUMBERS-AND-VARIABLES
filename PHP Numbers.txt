@@ -1,0 +1,92 @@
+# PHP NUMBERS
+-------------
+	* Numbers
+	---------
+	Numbers and arithmetic operations are a fundamental part of programming. In this lesson, we’ll learn how to use and manipulate numbers in PHP.
+
+	PHP has two number data types. The integer data type includes positive and negative whole numbers (such as 3, 4599, -98, and 0). The floating point data type is used to represent 
+	decimal numbers (such as 4.98273, 2.1, -9.7, -182736.8).
+
+		echo 5; // Prints: 5
+		echo -22.8; // Prints: -22.8
+
+	We can also declare variables and assign numbers as their values:
+
+		$my_int = 78;
+		$my_float = -897.21;
+ 
+		echo $my_int; // Prints: 78
+		echo $my_float; // Prints: -897.21
+
+	In the code above, we created the $my_int variable and assigned the integer value of 78 to it. Next, we created the $my_float variable and assigned the floating point value 
+	of -897.21 to it.
+
+	Let’s practice making number variables!
+
+index.php
+---------
+<?php
+// Write your code below:
+$number1 = 1;
+echo $number1;
+
+echo "\n";
+
+$number2 = 1.1;
+echo $number2;
+  
+==================================================================================================================================================================
+
+	* Addition and Subtraction
+	--------------------------
+	PHP provides several operators we can use on numbers. Let’s start with two that are likely familiar: the addition (+) and subtraction (-) operators:
+
+		echo 5 + 1; // Prints: 6
+		echo 6.6 + 1.2; // Prints: 7.8
+		echo 198263 - 263;  // Prints: 198000
+		echo -22.8 - 19.1; // Prints: -41.9
+
+	Most of the time, we don’t have to worry about which type of number we’re using. We can add a float to an integer, subtract an integer from a float, and so on.
+
+	One quirk is that operators will return integers whenever the result of the operation evaluates to a whole number. So 8.9 + 1.1 will return 10, an integer, and not 10.0 even 
+	though both of the operands in the calculation were floating point numbers.
+
+	Let’s do some adding and subtracting!
+
+index.php
+---------
+<?php
+// Write your code below:
+  echo 5 + 7;
+
+==================================================================================================================================================================
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
