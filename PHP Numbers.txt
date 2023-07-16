@@ -100,6 +100,39 @@ echo $last_month - $this_month;
 
 ==================================================================================================================================================================
 
+* Multiplication and Division
+-----------------------------
+	PHP also gives us operators for performing multiplication (*) and division (/).
+
+		echo 2 * 3; // Prints: 6
+		echo -21 / 7; // Prints: -3
+
+	Like with addition and subtraction, when we perform multiplication or division, the computer will return an integer whenever the operation evaluates to a whole number.
+
+	The reverse is also true:
+
+		$num_cookies = 24;
+		$num_friends = 7;
+		$cookies_per_friend = $num_cookies / $num_friends;
+		echo $cookies_per_friend; // Prints: 3.4285714285714
+
+	In the code above, we performed an operation on two integers that didn’t divide into each other evenly, so the computer returned a floating point number.
+
+	Let’s multiply and divide!
+
+index.php
+---------
+<?php
+// Write your code below:
+$num_languages = 4;
+$months = 11;
+$days = $months * 16;
+$days_per_language = $days / $num_languages;
+
+echo $days_per_language;
+
+==================================================================================================================================================================
+
 
 
 
