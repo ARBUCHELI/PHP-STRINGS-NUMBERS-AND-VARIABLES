@@ -1,7 +1,7 @@
 # PHP NUMBERS
 -------------
-	* Numbers
-	---------
+* Numbers
+---------
 	Numbers and arithmetic operations are a fundamental part of programming. In this lesson, we’ll learn how to use and manipulate numbers in PHP.
 
 	PHP has two number data types. The integer data type includes positive and negative whole numbers (such as 3, 4599, -98, and 0). The floating point data type is used to represent 
@@ -37,8 +37,8 @@ echo $number2;
   
 ==================================================================================================================================================================
 
-	* Addition and Subtraction
-	--------------------------
+* Addition and Subtraction
+--------------------------
 	PHP provides several operators we can use on numbers. Let’s start with two that are likely familiar: the addition (+) and subtraction (-) operators:
 
 		echo 5 + 1; // Prints: 6
